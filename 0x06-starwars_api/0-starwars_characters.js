@@ -4,7 +4,7 @@ const request = require("request");
 
 const filmId = process.argv[2];
 const filmUrl = "https://swapi-api.alx-tools.com/api/films/" + filmId;
-const people = [];
+let people = [];
 const names = [];
 
 const requestCharacters = async () => {
